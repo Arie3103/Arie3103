@@ -7,14 +7,20 @@
 <audio id="myAudio" src="Somebody To You - The Vamps ft Demi Lovato.mp3" preload="auto">
 </audio>
 <a onClick="togglePlay()"><button type="button">Play</button></a>
- <!-- partial:index.partial.html -->
-<a href="https://suckittrees.com/artikel-108/membuat-tombol--button-elegan-dengan-css.html" target="_SELF">
-<h1>Style Button Suckittrees.com</h1></a>
-<button class="btn third">Button 3</button>
-
-<a href="#" class="btn third">Button 3</a>
-
-<!-- partial -->
+ <style>
+	.btn_style{
+		border: 1px solid #cecece;
+		border-radius: 3px;
+		padding: 3px 10px;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+		color: white;
+		background-color: red;
+	}
+	.btn_style:hover{
+		border: 1px solid #b1b1b1;
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	}
+	</style>
 
 <script type="text/javascript">
  var myAudio = document.getElementById("myAudio");
