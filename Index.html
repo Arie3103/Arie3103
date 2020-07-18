@@ -7,7 +7,26 @@
 <audio id="myAudio" src="Somebody To You - The Vamps ft Demi Lovato.mp3" preload="auto">
 </audio>
 <a onClick="togglePlay()"><button type="button">Play</button></a>
- 
+  
+	<style>
+	.btn_style{
+		border: 1px solid #cecece;
+		border-radius: 3px;
+		padding: 3px 10px;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+		color: white;
+		background-color: red;
+	}
+	.btn_style:hover{
+		border: 1px solid #b1b1b1;
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	}
+	</style>
+</head>
+<body>
+	
+	<button class="btn_style">Tombol</button>
+	
 <script type="text/javascript">
  var myAudio = document.getElementById("myAudio");
 var isPlaying = false;
