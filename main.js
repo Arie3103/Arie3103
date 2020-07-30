@@ -127,28 +127,28 @@ $(document).ready(function () {
     mSalam = checkTime(mSalam);
     sSalam = checkTime(sSalam);
     if (hSalam < 4) {
-      ucapanSalam = "Selamat Malam Kamu"
-      kata1 = "Jangan tidur malam";
-      kata2 = "Semoga mimpi indah<i class='fa fa-heart'></i>";
+      ucapanSalam = "Selamat Ulang tahun lek ku Merwald"
+      kata1 = "Panjang umur sehat selalu,sayang orang tua,semakin dewasa  ";
+      kata2 = " dan cita²nya terwujudkan ";
     } else {
       if (hSalam < 11) {
-        ucapanSalam = "Selamat Pagi kamu"
-        kata1 = "Jangan lupa sarapan";
-        kata2 = "Semoga hari hari mu menyenangkan <i class='fa fa-heart'></i>";
+        ucapanSalam = "Selamat Ulang tahun lek ku Merwald"
+        kata1 = "Panjang umur sehat selalu,sayang orang tua,semakin dewasa";
+        kata2 = "dan cita²nya terwujudkan";
       } else {
         if (hSalam < 16) {
-          ucapanSalam = "Selamat Siang kamu"
-          kata1 = "Jangan lupa makan siang";
-          kata2 = "Jangan lupa shalat dzuhur juga<i class='fa fa-heart'></i>";
+          ucapanSalam = " Selamat Ulang tahun lek ku Merwald "
+          kata1 = " Panjang umur sehat selalu,sayang orang tua,semakin dewasa";
+          kata2 = "dan cita²nya terwujudkan ";
         } else {
           if (hSalam < 20) {
-            ucapanSalam = "Selamat Sore kamu"
-            kata1 = "Jangan lupa mandi hahaha";
-            kata2 = "Jangan lupa shalat ashar juga<i class='fa fa-heart'></i>";
+            ucapanSalam = "Selamat Ulang tahun lek ku Merwald"
+            kata1 = " Panjang umur sehat selalu,sayang orang tua,semakin dewasa ";
+            kata2 = " dan cita²nya terwujudkan ";
           } else {
-              ucapanSalam = "Selamat Malam Kamu"
-              kata1 = "Jangan tidur malam";
-              kata2 = "Semoga mimpi indah<i class='fa fa-heart'></i>";
+              ucapanSalam = " Selamat Ulang tahun lek ku Merwald"
+              kata1 = "Panjang umur sehat selalu,sayang orang tua,semakin dewasa";
+              kata2 = " dan cita²nya terwujudkan ";
           }
         }
       }
